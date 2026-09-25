@@ -20,10 +20,30 @@
       "type": "string",
       "enum": [
         "COURSE_PUBLISHED",
-        "ENROLLMENT_PLACED",
+        "COURSE_VERSIONED",
+        "LEARNER_REGISTERED",
         "SUPPORT_UPDATED",
+        "SAFETY_RESTRICTION_APPLIED",
+        "SAFETY_RESTRICTION_LIFTED",
+        "ENROLLMENT_PLACED",
+        "ELIGIBILITY_CHANGED",
+        "TRANSFER_PROPOSED",
+        "TRANSFER_CONFIRMED",
+        "TRANSFER_DECLINED",
+        "TRANSFER_EXPIRED",
+        "GOAL_SET",
+        "GOAL_CONTINUED",
         "SESSION_RECORDED",
-        "OUTCOME_REVIEWED"
+        "CHECKIN_UPLOADED",
+        "CHECKIN_CONFLICT_RAISED",
+        "CHECKIN_CONFLICT_RESOLVED",
+        "ABSENCE_ATTRIBUTED",
+        "OUTCOME_REVIEWED",
+        "WAITLIST_JOINED",
+        "WAITLIST_OFFERED",
+        "WAITLIST_PROMOTED",
+        "WAITLIST_OFFER_EXPIRED",
+        "STAGE_REVIEW_RECORDED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +52,10 @@
         "learner_profile",
         "course_offering",
         "enrollment",
-        "learning_record"
+        "learning_record",
+        "course_session",
+        "transfer_proposal",
+        "waitlist_entry"
       ]
     },
     "aggregate_id": {

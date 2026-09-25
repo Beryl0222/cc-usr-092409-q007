@@ -1,0 +1,20 @@
+{
+  "event_id": "092208-020-sample-002",
+  "event_type": "TRANSFER_CONFIRMED",
+  "aggregate_type": "transfer_proposal",
+  "aggregate_id": "prop-sample-001",
+  "occurred_at": "2026-09-22T10:30:00+08:00",
+  "version": 2,
+  "summary": "学员确认从线下班迁移到电话辅导，支持需求随课程接续",
+  "payload": {
+    "proposal_id": "prop-sample-001",
+    "enrollment_id": "enr-sample-001",
+    "learner_id": "learner-sample-001",
+    "from_offering_id": "course-calligraphy-a",
+    "to_offering_id": "course-calligraphy-phone",
+    "mode": "phone",
+    "switched_at": "2026-09-22T10:30:00+08:00",
+    "hold_id": "hold-prop-sample-001",
+    "reason": "学员确认迁移"
+  }
+}
