@@ -23,7 +23,27 @@
         "ENROLLMENT_PLACED",
         "SUPPORT_UPDATED",
         "SESSION_RECORDED",
-        "OUTCOME_REVIEWED"
+        "OUTCOME_REVIEWED",
+        "LEARNER_REGISTERED",
+        "COURSE_VERSION_PUBLISHED",
+        "ELIGIBILITY_UPDATED",
+        "SAFETY_RESTRICTION_SET",
+        "TRANSFER_PROPOSED",
+        "TRANSFER_CONFIRMED",
+        "TRANSFER_REJECTED",
+        "TRANSFER_EXPIRED",
+        "TRANSFER_CANCELLED",
+        "RECORD_CORRECTED",
+        "GOAL_CARRIED",
+        "CHECKIN_RECORDED",
+        "CHECKIN_CONFLICT_RAISED",
+        "CHECKIN_CONFLICT_RESOLVED",
+        "WAITLIST_APPLIED",
+        "WAITLIST_OFFERED",
+        "WAITLIST_ENROLLED",
+        "WAITLIST_EXPIRED",
+        "WAITLIST_CANCELLED",
+        "REMINDER_SENT"
       ]
     },
     "aggregate_type": {
@@ -32,7 +52,10 @@
         "learner_profile",
         "course_offering",
         "enrollment",
-        "learning_record"
+        "learning_record",
+        "transfer_proposal",
+        "waitlist_entry",
+        "checkin"
       ]
     },
     "aggregate_id": {
